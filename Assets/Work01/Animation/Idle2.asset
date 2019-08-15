@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae0543fe805424df99fe08ce744cbe49, type: 3}
+  m_Name: Idle2
+  m_EditorClassIdentifier: 
+  m_PoseEntries:
+  - path: 
+    localPosition: {x: -3.9750905, y: -3.4902544, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.7623339, w: 0.64718395}
+    localScale: {x: 0.4, y: 0.4, z: 0.4}
+  - path: Spine2
+    localPosition: {x: 1.4003819, y: 0, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.0999562, w: 0.99499184}
+    localScale: {x: 1.2283, y: 1.2283, z: 1.2283}
+  - path: Spine2/L_arm1
+    localPosition: {x: 0.8686964, y: -0.945207, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.98749965, w: 0.15762112}
+    localScale: {x: 1.1, y: 1.1, z: 1.1}
+  - path: Spine2/L_arm1/L_arm2
+    localPosition: {x: 0.98717326, y: -0.00000016255812, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.25001913, w: 0.968241}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Spine2/R_arm1
+    localPosition: {x: 0.8624972, y: 0.8159231, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.92700976, w: -0.37503707}
+    localScale: {x: 1.1, y: 1.1, z: 1.1}
+  - path: Spine2/R_arm1/R_arm2
+    localPosition: {x: 0.9999996, y: 0.0000004427553, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.2542386, w: 0.96714157}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Spine2/Head
+    localPosition: {x: 1.5203749, y: 0.06497584, z: 1.8127659e-12}
+    localRotation: {x: 0.00008148835, y: 0.0033642345, z: 0.04463361, w: 0.9989978}
+    localScale: {x: 2.0353336, y: 2.0353336, z: 2.0353334}
+  - path: Spine2/Head/Hair1
+    localPosition: {x: 0.85359246, y: 0.000000001916105, z: -0.0010055013}
+    localRotation: {x: 0, y: 0, z: -0.7641464, w: 0.6450429}
+    localScale: {x: 0.62936, y: 0.62936, z: 0.62936}
+  - path: Spine2/Head/Hair1/Hair2
+    localPosition: {x: 1, y: -0.00000028412026, z: -0.000000001387306}
+    localRotation: {x: 0, y: 0, z: -0.21967275, w: 0.97557366}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Spine2/Head/Hair1/Hair2/Hair3
+    localPosition: {x: 1, y: 0.00000009470675, z: 9.248713e-11}
+    localRotation: {x: 0, y: 0, z: -0.51341593, w: 0.8581399}
+    localScale: {x: 0.83, y: 0.83, z: 0.83}
+  - path: L_leg1
+    localPosition: {x: -0.08974542, y: -0.6145043, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.7774263, w: 0.6289741}
+    localScale: {x: 1.1, y: 1.1, z: 1.1}
+  - path: L_leg1/L_leg2
+    localPosition: {x: 1.0000004, y: -0.000000059604645, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.737985, w: 0.6748172}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: R_leg1
+    localPosition: {x: -0.18223004, y: 0.6863363, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.59414315, w: 0.8043593}
+    localScale: {x: 1.1, y: 1.1, z: 1.1}
+  - path: R_leg1/R_leg2
+    localPosition: {x: 1.0000004, y: -0.000000059604645, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.8102916, w: 0.586027}
+    localScale: {x: 1, y: 1, z: 1}
